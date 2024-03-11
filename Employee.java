@@ -40,7 +40,9 @@ public class Employee extends Thread implements Comparable<Employee> {
         this.age = age;
     }
 
-    
+    public void run() {
+        System.out.println("Thread is running for employee: " + employeeName);
+    }
 
     @Override
     public int compareTo(Employee otherEmployee) {
