@@ -56,8 +56,8 @@ public class Employee extends Thread implements Comparable<Employee> {
 
     public static void main(String[] args) {
         String[] names = {
-            "Aradhana", "Barathi", "Sithamparam", "Thol", "Ira",
-            "Jodhika", "Karthik", "Meena", "Nandhini", "Purushotham"
+            "employee 1 ", "employee 2", "employee 3", "employee 4", "employee 5",
+            "employee 6", "employee 7", "employee 8", "employee 9", "employee 10"
         };
 
         Employee[] employees = new Employee[10];
